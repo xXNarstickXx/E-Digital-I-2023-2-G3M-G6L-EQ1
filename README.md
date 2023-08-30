@@ -1,6 +1,6 @@
 # E-Digital-I-2023-2-G3M-G6L-EQ1
 
-Este repositorio estará dedicado al laboratorio de la materia electrónica digital I.
+Este repositorio estará dedicado al laboratorio de la materia electrónica digital I
 
 Integrantes:
 
