@@ -1,7 +1,7 @@
 # Instalación de herramientas
 
 - [Instalación de Miniconda](#instalación-de-miniconda)
-- [Instalación de herramientas luego de instalar Miniconda](instalación-de-herramientas-luego-de-instalar-conda)
+- [Instalación de herramientas luego de instalar Miniconda](instalación-de-herramientas-luego-de-instalar-miniconda)
 - [Instalación de simuladores (Digital y QUCS)](Instalación-de-simuladores-(Digital-y-QUCS))
 
 ## Instalación de Miniconda
@@ -16,7 +16,7 @@ Para ello se usó el siguiente código en la terminal:
 Luego de esto se verificó una correcta instalación de Miniconda obteniendo lo siguiente:
 
 ![L11](https://i.ibb.co/DW49nz6/1.png)
-## Instalación de herramientas luego de instalar Conda
+## Instalación de herramientas luego de instalar Miniconda
 
 Las herramientas instaladas fueron las siguientes:
 
