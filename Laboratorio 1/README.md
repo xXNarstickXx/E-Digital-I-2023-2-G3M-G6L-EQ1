@@ -1,5 +1,5 @@
 # Instalación de herramientas para Linux
-##Integrantes:
+## Integrantes:
 
 - Diego Fernando Fernandez Narvaez
 - Andres Felipe Clavijo Durán
