@@ -5,6 +5,8 @@
 - Andres Felipe Clavijo Durán
 - Erika Johanna Quintero Calderón
 
+## Secciones:
+
 - [Instalación de Miniconda](#instalación-de-miniconda)
 - [Instalación de herramientas luego de instalar Miniconda](#instalación-de-herramientas-luego-de-instalar-miniconda)
 - [Instalación de simuladores (Digital y QUCS)](#instalación-de-simuladores-digital-y-qucs)
