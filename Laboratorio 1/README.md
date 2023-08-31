@@ -1,4 +1,9 @@
 # Instalación de herramientas para Linux
+##Integrantes:
+
+- Diego Fernando Fernandez Narvaez
+- Andres Felipe Clavijo Durán
+- Erika Johanna Quintero Calderón
 
 - [Instalación de Miniconda](#instalación-de-miniconda)
 - [Instalación de herramientas luego de instalar Miniconda](#instalación-de-herramientas-luego-de-instalar-miniconda)
