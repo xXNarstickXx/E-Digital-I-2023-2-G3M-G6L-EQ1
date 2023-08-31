@@ -1,8 +1,8 @@
-# Instalación de herramientas
+# Instalación de herramientas para Linux
 
 - [Instalación de Miniconda](#instalación-de-miniconda)
-- [Instalación de herramientas luego de instalar Miniconda](instalación-de-herramientas-luego-de-instalar-miniconda)
-- [Instalación de simuladores (Digital y QUCS)](Instalación-de-simuladores-(Digital-y-QUCS))
+- [Instalación de herramientas luego de instalar Miniconda](#instalación-de-herramientas-luego-de-instalar-miniconda)
+- [Instalación de simuladores (Digital y QUCS)](#instalación-de-simuladores-digital-y-qucs)
 
 ## Instalación de Miniconda
 Miniconda es el gestor de paquetes y administrador de entornos de Python el cual usaremos en Linux.
@@ -55,4 +55,26 @@ El cual brindó una solución rápida al problema con Yosys.
 ![L14](https://i.ibb.co/TP2c3Sn/4.png)
 
 ## Instalación de simuladores (Digital y QUCS)
+
+Se obtuvieron los archivos de instalación y se abrió la terminal en la carpeta en la que se iban a instalar los archivos de Digital para escribir el siguiente comando:
+
+```bash
+  .\install install.sh
+```
+Y simplemente se ejecuta Digital como un programa común usando su acceso directo.
+
+![L15](https://i.ibb.co/g7qckS5/5.png)
+(En las carpetas del programa se encuentra esta simulación)
+
+Para instalar qucs simplemente se va a la carpeta donde se tenga guardado este y se siguen los siguientes pasos:
+
+- Click derecho sobre el ícono del programa
+- Seleccionar "Permisos"
+- Seleccionar la opción "Permitir ejecutar el archivo como un programa"
+
+![L16](https://i.ibb.co/NxB7C4J/6.png)
+
+Luego abrimos QUCS como cualquier programa.
+
+![L17](https://i.ibb.co/XSWTPbR/7.png)
 
