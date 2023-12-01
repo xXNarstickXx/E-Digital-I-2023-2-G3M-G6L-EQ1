@@ -97,19 +97,19 @@ Salidas: clk_out
 
 ## RTL's sensor de color
 ### Modulo Top (Modulo Principal)
-<img align="right" height="320" src="https://i.ibb.co/DD3j4Nf/Rtl-Sensor-Color.png" />
+<img align="left" height="320" src="https://i.ibb.co/DD3j4Nf/Rtl-Sensor-Color.png" />
 
 El módulo top interconecta todos los módulos de verilog utilizados para el funcionamiento de este proyecto, para esta parte del proyecto se utilizaron 2 módulos los cuales son los siguientes: 
 - Color (Módulo que se encarga de la captura de datos del sensor).
 - Control (Módulo encargado de el control de datos del sensor (Encender un led)).
 
  ### Modulo color
- <img align="right" height="500" src="https://i.ibb.co/tD7R5CZ/Rtl-Datos-Color.png"  />
+ <img align="left" height="500" src="https://i.ibb.co/tD7R5CZ/Rtl-Datos-Color.png"  />
  
  El modulo de color basicamente funciona filtrando cada señal obtenida en un cable que es enviado al modulo de control para realizar la gestion y manejo de datos. se definen las siguientes entradas out, clk y las salidas s0, s1, s2, s3, rojo y azul ( los colores a filtrar), el modulo asigna los valores de 1 a s0 y s1 para manejar el 100% de la frecuencia del sensor, y s2 en 0 ya que para los colores que se filtraron se necesitaba que este estuviera con un nivel logico en bajo, luego se inicia un conteo de 0,2 segundos en los cuales se van tomando los anchos de pulso de cada matriz de color selecionada (en este caso rojo y azul), las cuales se activan y desactivan con s2 y s3.
 
  ### Modulo color
- <img align="right" height="250" src="https://i.ibb.co/F8BJnVV/Rtl-Control-Color.png"  />
+ <img align="left" height="250" src="https://i.ibb.co/F8BJnVV/Rtl-Control-Color.png"  />
 
  El modulo de control funciona obteniendo los datos del sensor de color el cual si el ancho de pulso de la matriz del sensor rojo es menor que la del sensor azul se encienda el led rojo y viceversa.
 
