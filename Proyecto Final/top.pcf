@@ -1,0 +1,19 @@
+
+#set_io -pullup yes a 49 # Switch S2
+#set_io -pullup yes b 52 # Switch S1
+#set_io c 55 # Yellow LED
+#set_io a 
+
+set_io start 52 # Switch S1
+set_io clock 60
+set_io laser 102
+set_io pulse 49
+set_io echo 104
+set_io rled 106
+set_io vled 105
+set_io aled 101
+set_io ledx 99
+set_io clkout1 26
+set_io clkout2 9
+
+
