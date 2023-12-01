@@ -19,8 +19,10 @@ Debido a problemas con el sensor de color no se pudo implementar este en el proy
 El sensor de ultrasonido utilizado para medir la altura de las cajas estará midiendo esto constantemente pero unicamente se tomarán los datos cuando una caja pase por debajo de esto, nos aseguramos de esto usando un módulo laser que apunta hacia una fotocelda al otro lado de la banda transportadora, cuando una caja pase en frente del láser esta permitirá que la FPGA tome datos únicamente en ese momento, datos que serán utilizados para mover los servomotores ubicados a los lados de la banda transportadora los cuales enviaran las cajas a diferentes lugares dependiendo de su tamaño.
 
 ## Banner
-
-
+Link del video de la implementación del proyecto: <div align="left"><a href="https://youtu.be/ggKCQbyKBco" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/youtube/default.svg" width="52" height="40" alt="youtube logo"  />
+  </a>
+</div>
 
 ## RTL's
 ### Módulo top (Módulo principal)
