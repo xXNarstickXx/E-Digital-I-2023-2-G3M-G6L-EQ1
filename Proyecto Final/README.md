@@ -24,7 +24,7 @@ Link del video de la implementación del proyecto: <div align="left"><a href="ht
   </a>
 </div>
 
-## RTL's
+## RTL's sensor de proximidad.
 ### Módulo top (Módulo principal)
 
 <img align="left" height="400" src="https://i.ibb.co/RBdpH71/top.jpg"  /> El módulo top interconecta todos los módulos de verilog utilizados para el funcionamiento de este proyecto, para este proyecto se utilizaron 6 módulos los cuales son los siguientes:
@@ -94,3 +94,14 @@ Primero se utiliza un multiplexor que utiliza como señal de control la entrada 
 Entradas: clk_in (25MHz), rg (servo), vg(servo2)
 
 Salidas: clk_out
+
+## RTL's sensor de color
+### Modulo Top (Modulo Principal)
+<img align="right" height="426" src="https://i.ibb.co/DD3j4Nf/Rtl-Sensor-Color.png"  /> El módulo top interconecta todos los módulos de verilog utilizados para el funcionamiento de este proyecto, para esta parte del proyecto se utilizaron 2 módulos los cuales son los siguientes: 
+- Color (Módulo que se encarga de la captura de datos del sensor).
+- Control (Módulo encargado de el control de datos del sensor (Encender un led)).
+
+ ### Modulo color
+ <img align="right" height="426" src="https://i.ibb.co/tD7R5CZ/Rtl-Datos-Color.png"  />El modulo de color basicamente funciona filtrando cada señal obtenida en un cable que es enviado al modulo de control para realizar la gestion y manejo de datos. se definen las siguientes entradas out, clk y las salidas s0, s1, s2, s3, rojo y azul ( los colores a filtrar), el modulo asigna los valores de 1 a s0 y s1 para 
+
+
