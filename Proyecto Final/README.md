@@ -46,7 +46,6 @@ Link del video de la implementación del proyecto: <div align="left"><a href="ht
 
 //
 
-//
 ## RTL's sensor de proximidad.
 ### Módulo top (Módulo principal)
 
