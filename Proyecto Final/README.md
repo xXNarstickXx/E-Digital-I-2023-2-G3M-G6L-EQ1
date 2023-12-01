@@ -147,6 +147,8 @@ El módulo top interconecta todos los módulos de verilog utilizados para el fun
 
 //
 
+//
+
  ### Modulo color
  <img align="left" height="250" src="https://i.ibb.co/F8BJnVV/Rtl-Control-Color.png"  />
 
