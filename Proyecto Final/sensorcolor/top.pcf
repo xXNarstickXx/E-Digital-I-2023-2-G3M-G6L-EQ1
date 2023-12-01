@@ -1,0 +1,9 @@
+set_io clk 60
+set_io out 24
+set_io s0 106
+set_io s1 105
+set_io s2 101
+set_io s3 99
+set_io led1 56
+set_io led2 49
+
