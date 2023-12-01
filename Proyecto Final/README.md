@@ -149,7 +149,11 @@ El módulo top interconecta todos los módulos de verilog utilizados para el fun
 
 //
 
- ### Modulo color
+//
+
+//
+
+ ### Modulo de control
  <img align="left" height="250" src="https://i.ibb.co/F8BJnVV/Rtl-Control-Color.png"  />
 
  El modulo de control funciona obteniendo los datos del sensor de color el cual si el ancho de pulso de la matriz del sensor rojo es menor que la del sensor azul se encienda el led rojo y viceversa.
